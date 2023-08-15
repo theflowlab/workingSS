@@ -1,5 +1,3 @@
-<script>
-
 $(document).ready(function () {
   // Define the sandbox endpoint URL
   var endpoint = "https://api.demo.ezidebit.com.au/V3-5/public-rest";
@@ -67,7 +65,3 @@ $(document).ready(function () {
     }
   });
 });
-
-
-
-</script>
