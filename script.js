@@ -28,6 +28,7 @@ $(document).ready(function () {
   // Callback function for successful transactions
   function displaySubmitCallback(data) {
     console.log("Successful transaction response:", data);
+    window.location.href = '/order-confirmation';
     payNowButton.textContent = "Confirm & Pay"; // Reset the button text
   }
 
