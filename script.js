@@ -113,7 +113,7 @@
 
         // Delete the corresponding records in the Airtable 'Cart Items' table
         var Airtable = require('airtable');
-        var base = new Airtable({apiKey: 'YOUR_SECRET_API_TOKEN'}).base('appXons1wPs6UbioT');
+        var base = new Airtable({apiKey: 'pat6rdghQ4oMvdBgh.2f93656d20a82cd36bff01a8e157c7262c9308dab9d99abd31d4e8321be37cf3'}).base('appXons1wPs6UbioT');
         base('Cart Items').destroy(recordIds, function(err, deletedRecords) {
           if (err) {
             console.error(err);
